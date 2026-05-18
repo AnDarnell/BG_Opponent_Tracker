@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="BattlegroundsTracker.TrackerWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#CC1a1a2e"
+             Width="200">
+    <StackPanel Margin="10">
+        <TextBlock x:Name="RoundText"
+                   Text="Runda 1"
+                   Foreground="White"
+                   FontSize="16"
+                   Margin="0,0,0,10"/>
+        <ItemsControl x:Name="OpponentList"/>
+    </StackPanel>
+</UserControl>

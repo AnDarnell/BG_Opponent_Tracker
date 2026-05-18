@@ -1,0 +1,13 @@
+git rm --cached -r .vs || true
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.nupkg
+packages/
+*.vsix
+*.db
+Thumbs.db
