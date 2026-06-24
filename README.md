@@ -1,6 +1,27 @@
-Plugin will keep track of your most recent opponents (red crosses) that you can't face in the upcoming turns. It doesn't work perfectly, as it sometimes can't tell players apart when at the same health+armor. The plugin also tracks player IDs, where 1, 2, 3 are highlighted. Player ID 1 will generally be given ghost if available. I'm currently running stats locally to "prove" this. :)
+Battlegrounds Opponent Tracker
 
-Instructions: 
-1. Download and place the .dll file into the Hearthstone Deck Tracker (HDT) plugin folder (access inside Hearthstone Deck Tracker > Settings > Plugin > Plugin Folder). 
-2. Once it's there restart HDT and activate the plugin again under Settings > Plugins (tick the box). Also press the button "Tracker" to remove the debug window from the overlay (if u want).
-3. Now it should load upon a game starting. The plugin only works correctly in 1920x1080 as for now - might update this at some point.
+A Hearthstone Deck Tracker (HDT) plugin that helps you keep track of which Battlegrounds opponents you've recently faced — so you know who you can't face in the upcoming turns.
+
+Features
+
+- Marks recently-faced opponents with a red cross overlay
+- Tracks Player IDs (1, 2, 3) and highlights them
+- Player ID 1 is generally assigned the "ghost" (when available)
+
+
+Known limitations
+
+- Not perfect — the plugin can sometimes struggle to tell players apart when they have the same health + armor
+- Currently only works correctly at 1920x1080 resolution (other resolutions may be supported in a future update)
+- Ghost-assignment logic is still being validated against local match data — accuracy may improve in future versions
+
+
+Installation
+
+
+- Download the .dll file from this repo (see Releases).
+- Open Hearthstone Deck Tracker, go to Settings → Plugins → Plugin Folder, and place the .dll there.
+- Restart HDT.
+- Go to Settings → Plugins, find "Battlegrounds Opponent Tracker", and tick the checkbox to activate it.
+- (Optional) Click the Tracker button to hide the debug window from the overlay.
+- The plugin will automatically load once a Battlegrounds game starts.
