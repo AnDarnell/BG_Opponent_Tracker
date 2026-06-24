@@ -1,6 +1,6 @@
 Battlegrounds Opponent Tracker
 
-A Hearthstone Deck Tracker (HDT) plugin that helps you keep track of which Battlegrounds opponents you've recently faced — so you know who you can't face in the upcoming turns.
+A Hearthstone Deck Tracker (HDT) plugin that helps you keep track of which Battlegrounds opponents you've recently faced, so you know who you can't face in the upcoming turns.
 
 Features
 
@@ -11,9 +11,9 @@ Features
 
 Known limitations
 
-- Not perfect — the plugin can sometimes struggle to tell players apart when they have the same health + armor
+- The plugin can sometimes struggle to tell players apart when they have the same health + armor
 - Currently only works correctly at 1920x1080 resolution (other resolutions may be supported in a future update)
-- Ghost-assignment logic is still being validated against local match data — accuracy may improve in future versions
+- Ghost-assignment logic is still being validated against local match data
 
 
 Installation
