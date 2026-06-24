@@ -18,9 +18,9 @@ A Hearthstone Deck Tracker (HDT) plugin that helps you keep track of which Battl
 
 ## Installation
 
-- Download the .dll file from this repo (see Releases).
-- Open Hearthstone Deck Tracker, go to Settings → Plugins → Plugin Folder, and place the .dll there.
-- Restart HDT.
-- Go to Settings → Plugins, find "Battlegrounds Opponent Tracker", and tick the checkbox to activate it.
-- (Optional) Click the Tracker button to hide the debug window from the overlay.
-- The plugin will automatically load once a Battlegrounds game starts.
+1. Download the .dll file from this repo (see Releases).
+2. Open Hearthstone Deck Tracker, go to Settings → Plugins → Plugin Folder, and place the .dll there.
+3. Restart HDT.
+4. Go to Settings → Plugins, find "Battlegrounds Opponent Tracker", and tick the checkbox to activate it.
+5. (Optional) Click the Tracker button to hide the debug window from the overlay.
+6. The plugin will automatically load once a Battlegrounds game starts.
