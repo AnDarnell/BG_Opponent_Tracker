@@ -63,6 +63,7 @@ namespace BattlegroundsTracker
             Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
             "HearthstoneDeckTracker", "Plugins", "BattlegroundsTracker");
         private static readonly string GhostLogPath = System.IO.Path.Combine(LogDir, "ghost_log.csv");
+        private const bool EnableGhostLogging = false;
 
         private int _matchId = 0;
         private TextBlock _debugTextBlock;
@@ -563,6 +564,9 @@ namespace BattlegroundsTracker
 
         private void LogGhostEvent(int matchId, int turn, int ghostPid, List<int> eligiblePids, string note = "")
         {
+            if (!EnableGhostLogging)
+                return;
+
             try
             {
                 if (!Directory.Exists(LogDir))
